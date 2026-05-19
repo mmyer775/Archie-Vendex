@@ -756,9 +756,6 @@ export function PaycheckView({ user }) {
                     </div>
                     <PayBadge label="Paid" color="#A0C4B8" />
                   </div>
-                  <div style={{ marginTop: 14, padding: '10px 14px', background: '#A0C4B815', border: '1px solid #A0C4B830', borderRadius: 'var(--radius-sm)', fontSize: 12, color: 'var(--text-muted)' }}>
-                    * subject to tax repayment and other Helen related debts
-                  </div>
                 </div>
               ) : isRepActive(orders, user?.name) ? (
                 <div className="card" style={{ marginBottom: 12, borderColor: '#6B5F8030' }}>
